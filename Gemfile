@@ -35,5 +35,5 @@ gem 'jquery-rails'
 group :development, :test do
   gem 'rspec-rails'
   gem "capybara"
-  gem "nifty-generators"  
+  gem "spork", '0.9.0.rc7'
 end

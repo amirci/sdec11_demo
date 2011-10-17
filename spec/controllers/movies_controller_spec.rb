@@ -24,7 +24,7 @@ describe MoviesController do
   # Movie. As you add validations to Movie, be sure to
   # update the return value of this method accordingly.
   def valid_attributes
-    {}
+    {title: 'Blazing Saddles', description: 'A sheriff goes to a town...'}
   end
 
   describe "GET index" do
